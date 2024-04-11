@@ -1,0 +1,4 @@
+FROM openjdk:17
+VOLUME /tmp
+EXPOSE 8085
+ENTRYPOINT ["JAVA","-jar"]
